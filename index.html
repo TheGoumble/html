@@ -1,18 +1,39 @@
 <html>
   <head>
     <title>my first html</title>
+    <link rel="stylesheet" href="style.css">
     <style>
-      h1 {
+      /* h1 {
           color: orange;
           font-size: 11vw;
       }
+
+      #thisOne{
+        background-color: yellow;
+      }
+
+      .thisType{
+        background-color: blue;
+      }
+
+      .whitetext {
+        color: white;
+      }
+
+      .custum-box {
+        background-color: rgb(200, 133, 44);
+        width: 50vw;
+        padding: 2vw;
+        border: .6vw dashed black;
+        margin: 10vw 10vh ;
+      } */
     </style>
   </head>
   <body>
     <a href="/students.html">students</a>
 
     <header style="font-size: 5em; color: salmon">this is the header</header>
-    <img
+    <img class="custum-box"
       src="https://images.squarespace-cdn.com/content/v1/582f5351bebafbfc625ea03d/1479501979985-UD434KQO9WIR9XNAMUJV/van+dyke+%281%29.jpg?format=2500w"
       width="304"
     />
@@ -24,18 +45,18 @@
       let a = 1 <br />
       let b = 2
     </blockquote>
-    <h2><i>This is so fancy</i></h2>
+    <h2 class = "thisType whitetext"><i>This is so fancy</i></h2>
     <form>
       <input />
       <button>press me</button>
     </form>
     <!-- this is a comment -->
-    <h1>this is a header more stuff and even more stuff</h1>
+    <h1 id ="thisOne">this is a header more stuff and even more stuff</h1>
     <h2>Omg. it's smaller</h2>
     <p>This is a paragraph</p>
     <div>this is a dive</div>
 
     end of html
-    <footer>this is the footer</footer>
+    <footer class = "thisType">this is the footer</footer>
   </body>
 </html>
